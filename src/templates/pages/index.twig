@@ -1,0 +1,36 @@
+{# index.twig #}
+
+{% extends "layouts/default.twig" %}
+
+{% block main %}
+
+<section class="pure-g container intro">
+	<article class="pure-u-1">
+		<header>
+			<h2>Introduction</h2>
+		</header>
+		<p>This is based off HTML5 Boilerplate.</p>
+	</article>
+</section>
+
+<section class="pure-g container content">
+	<article class="pure-u-1">
+		<header>
+			<h2>Content</h2>
+		</header>
+		<p>Hopefully something more interesting than a snow covered pole</p>
+		<img src="/img/snow.jpg" class="pure-img" />
+	</article>
+</section>
+
+<section class="pure-g container contact">
+	<article class="pure-u-1">
+		<header>
+			<h2>Contact</h2>
+		</header>
+		<p>Please contact us using the following form</p>
+		{% include "partials/contact-form.twig" %}
+	</article>
+</section>
+
+{% endblock %}

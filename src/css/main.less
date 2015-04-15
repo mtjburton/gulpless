@@ -1,0 +1,52 @@
+@import 'variables.less';
+
+body {
+	background-color: @bg-color;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.container > * {
+	max-width: @container-width; 
+	margin: auto;
+}
+
+div[role=banner] {
+	background-color: @banner-color;
+	padding: 2em inherit;
+}
+
+div[role=navigation] {
+	background-color:@nav-color;
+}
+
+section.container,
+div[role=contentinfo].container {
+	border-top: solid 1px #dddddd;
+}
+
+section.pure-g {
+	padding: 2em inherit;
+}
+
+.pure-form-stacked textarea,
+.pure-form-stacked input[type=email],
+.pure-form-stacked input[type=text] {
+	margin: inherit auto;
+}
+
+.pure-form-stacked button {
+	margin-top: 2em;
+}
+
+footer {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.pure-img {
+	margin: inherit auto;
+}
