@@ -88,5 +88,5 @@ This occurs when running the following commands:
 - `gulp opt-image`
 
 ##Notes
-I have made a blog post which hopefully gives some idea about I chose to do things in the way I did. It can be found [here](http://mtjburton.co.uk/workflow-for-static-websites)
+I have made a blog post which hopefully gives some idea about I chose to do things in the way I did. It can be found [here](http://mtjburton.co.uk/post/static-website-workflow-using-gulp)
 This is a work in progress and if you find any issues or have any suggestions log a bug/submit a PR.
