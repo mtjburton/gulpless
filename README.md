@@ -75,7 +75,7 @@ All files in `src/static/` are copied to `dest/public/`. This is useful for favi
 This occurs when running the following commands:
 - `gulp`
 - `gulp build`
-- `gulp gulp rebuild`
+- `gulp rebuild`
 - `gulp copy-static`
 
 ###Images
@@ -84,7 +84,7 @@ All files in `src/img/` will be optimised using [gulp-imagemin](https://github.c
 This occurs when running the following commands:
 - `gulp`
 - `gulp build`
-- `gulp gulp rebuild`
+- `gulp rebuild`
 - `gulp opt-image`
 
 ##Notes
